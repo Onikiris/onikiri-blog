@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[从零开始的图片服务器之旅—Ubuntu篇]]></title>
-      <url>/visuper-blog/2018/02/19/2018-01-16-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9B%BE%E7%89%87%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85%E4%B9%8BUbuntu%E7%AF%87/</url>
+      <url>/visuper-blog/2018/10/16/2018-01-16-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9B%BE%E7%89%87%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85%E4%B9%8BUbuntu%E7%AF%87/</url>
       <content type="html"><![CDATA[<h3 id="常规操作"><a href="#常规操作" class="headerlink" title="常规操作"></a>常规操作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get update</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="安装vsftpd"><a href="#安装vsftpd" class="headerlink" title="安装vsftpd"></a>安装vsftpd</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install vsftpd</span><br></pre></td></tr></table></figure>
@@ -53,7 +53,7 @@
     
     <entry>
       <title><![CDATA[从零开始的Redis之旅—Ubuntu篇]]></title>
-      <url>/visuper-blog/2018/02/19/2018-01-15-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Redis%E4%B9%8B%E6%97%85%E4%B9%8BUbuntu%E7%AF%87/</url>
+      <url>/visuper-blog/2018/01/15/2018-01-15-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Redis%E4%B9%8B%E6%97%85%E4%B9%8BUbuntu%E7%AF%87/</url>
       <content type="html"><![CDATA[<p>最近的学习中，讲的都是在CenterOS上的Redis简单使用，奈何自己的笔记本上只有Ubuntu系统（版本：Ubuntu 16.04.3 LTS），翻阅网上各类关于Ubuntu上安装Redis的教程，记录自己不断踩坑的过程 <a id="more"></a></p>
 <h3 id="Redis安装"><a href="#Redis安装" class="headerlink" title="Redis安装"></a>Redis安装</h3><p>在执行所有操作前，先使用命令更新软件列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get update</span><br></pre></td></tr></table></figure></p>
 <p>通过以下步骤下载，解压，编译：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ wget http://download.redis.io/releases/redis-4.0.6.tar.gz      ---下载</span><br><span class="line">$ tar -zxvf redis-4.0.6.tar.gz        				 ---解压</span><br><span class="line">$ sudo chmod -R 777 /usr/local  			   	 ---获取文件夹修改权限</span><br><span class="line">$ mv redis-4.0.6    /usr/local                                   ---将解压后的redis移动至/usr/local下</span><br><span class="line">$ cd /usr/local/redis-4.0.6                                      ---进入解压缩后的文件夹</span><br><span class="line">$ make                                                           ---编译</span><br></pre></td></tr></table></figure></p>
@@ -105,7 +105,7 @@
     
     <entry>
       <title><![CDATA[2018，你好呀！]]></title>
-      <url>/visuper-blog/2018/02/19/2017-12-31-2018%EF%BC%8C%E4%BD%A0%E5%A5%BD%E5%91%80%EF%BC%81/</url>
+      <url>/visuper-blog/2017/12/31/2017-12-31-2018%EF%BC%8C%E4%BD%A0%E5%A5%BD%E5%91%80%EF%BC%81/</url>
       <content type="html"><![CDATA[<p>年末已至，忽然有了想写点什么的冲动<br>最近看着朋友圈各自刷着18岁的自己，提醒我该长点心了，最能拼搏年纪就是现在了！<a id="more"></a></p>
 <h3 id="新年那么好，那么暖"><a href="#新年那么好，那么暖" class="headerlink" title="新年那么好，那么暖"></a>新年那么好，那么暖</h3><p>2017的新年是和小弟在外婆家过的，融安镇-安宁村，很喜欢这个名字。<br>外婆记忆力不好的事是听老妈说的，有时候外公在都认不出外公来，想着都有些心疼外公。<br>我在那边的时候，其实很少和外公外婆聊天的，整天捧着笔记本窝在房里捣鼓自己的事。偶尔上趟街，其实怕上街，不会讲柳州话，老听不懂在讲些什么。</p>
 <p>附近都是外公那一大家子的，过年的氛围很浓的。自然少不了每家都去蹭吃蹭喝，可唯独喝酒不行，不满意自己的就是这个了。小弟喝酒是可以的，家酿、啤的、白的、都能，比我好太多，<br>过年少不得的打牌活动也是有参与的，遗憾的是手气不行，输是常事，<br>新年就这样在简单和温馨的过去了，一天到晚的吃吃喝喝玩玩闹闹，<br>比较后悔的是没有多陪陪外公外婆他们，能去一次已经不容易，却不被自己珍惜。</p>
